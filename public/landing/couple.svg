@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1f14" />
+      <stop offset="100%" stop-color="#2d6a4f" />
+    </linearGradient>
+    <linearGradient id="dress" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5e6b8" />
+      <stop offset="100%" stop-color="#dbc878" />
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b4332" />
+      <stop offset="100%" stop-color="#0a1f14" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c49a" />
+      <stop offset="100%" stop-color="#c8a070" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" rx="30" fill="url(#bg)" opacity="0.16" />
+  <ellipse cx="300" cy="390" rx="240" ry="40" fill="rgba(201,168,76,0.12)" />
+  <path d="M160 270 Q150 190 180 170 Q220 140 260 150 Q300 161 320 190 Q360 240 340 280 Q320 320 280 340 Q240 330 210 300 Z" fill="url(#suit)" />
+  <path d="M410 170 Q430 130 470 125 Q520 120 540 160 Q560 220 520 310 Q480 380 360 360 Q330 350 320 300 Q310 250 340 210 Q370 170 410 170 Z" fill="url(#dress)" />
+  <circle cx="245" cy="130" r="32" fill="url(#skin)" />
+  <path d="M232 118 Q245 94 258 118 Q245 112 232 118 Z" fill="#2a1a08" />
+  <circle cx="225" cy="132" r="4" fill="#3a2008" />
+  <circle cx="265" cy="132" r="4" fill="#3a2008" />
+  <path d="M235 150 Q245 158 255 150" stroke="#9a6030" stroke-width="2" fill="none" />
+  <circle cx="445" cy="130" r="34" fill="url(#skin)" />
+  <path d="M382 130 Q405 80 468 120 Q430 100 405 96 Q386 110 382 130 Z" fill="#f5e6b8" />
+  <path d="M380 118 Q350 180 372 210 Q390 250 430 260 Q470 255 485 215 Q492 190 478 154 Q470 132 455 120 Q432 110 410 118 Z" fill="#f5e6b8" opacity="0.95" />
+  <circle cx="435" cy="146" r="4" fill="#c9a84c" />
+  <circle cx="430" cy="150" r="2" fill="#fff7d9" />
+  <path d="M410 145 Q420 175 450 172" stroke="#3a2008" stroke-width="2" fill="none" />
+  <ellipse cx="310" cy="340" rx="20" ry="14" fill="#c9a84c" opacity="0.7" />
+  <ellipse cx="325" cy="332" rx="16" ry="10" fill="#e8c870" opacity="0.9" />
+  <circle cx="315" cy="330" r="7" fill="#ffffff" opacity="0.7" />
+  <text x="300" y="56" text-anchor="middle" font-family="Cinzel, serif" font-size="20" fill="#f5e6b8" opacity="0.9">Zaid &amp; Fatima</text>
+</svg>
