@@ -31,7 +31,7 @@ function App() {
     const updateRings = () => {
       const progress = clamp((scrollHeight + 120) / (window.innerHeight * 0.9), 0, 1)
       const eased = easeOutCubic(progress)
-      const leftX = lerp(16, 50, eased)
+      const leftX = lerp(26, 50, eased)
       const rightX = lerp(84, 50, eased)
       const topY = lerp(12, 58, eased)
       const scale = lerp(1, 0.94, eased)
@@ -39,9 +39,11 @@ function App() {
 
       if (leftRingRef.current) {
         leftRingRef.current.style.transform = `translate(-50%, -50%) translate(${leftX}vw, ${topY}vh) scale(${scale}) rotate(-9deg)`
+        leftRingRef.current.style.zIndex = '102'
       }
       if (rightRingRef.current) {
         rightRingRef.current.style.transform = `translate(-50%, -50%) translate(${rightX}vw, ${topY}vh) scale(${scale}) rotate(10deg)`
+        rightRingRef.current.style.zIndex = '101'
       }
       if (haloRef.current) {
         haloRef.current.style.opacity = haloVisible ? '1' : '0'

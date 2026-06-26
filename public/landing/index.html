@@ -52,6 +52,7 @@ body {
 #lantern-layer {
   position:fixed; top:0; left:0; right:0;
   height:100vh; pointer-events:none; z-index:50; overflow:hidden;
+  display:none;
 }
 .lantern {
   position:absolute;
@@ -1325,7 +1326,7 @@ function tick() {
   const h = Math.floor((diff % 86400000) / 3600000);
   const m = Math.floor((diff % 3600000)  / 60000);
   const s = Math.floor((diff % 60000)    / 1000);
-  document.getElementById('cd-days').textContent  = String(d).padStart(3,'0');
+  document.getElementById('cd-days').textContent  = String(d);
   document.getElementById('cd-hours').textContent = String(h).padStart(2,'0');
   document.getElementById('cd-mins').textContent  = String(m).padStart(2,'0');
   document.getElementById('cd-secs').textContent  = String(s).padStart(2,'0');

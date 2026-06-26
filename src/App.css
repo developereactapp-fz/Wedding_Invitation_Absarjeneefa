@@ -103,42 +103,16 @@ body {
 /* Float rings at top left and right - visible throughout page scroll */
 .ring-left,
 .ring-right {
-  top: 12vh;
   position: fixed !important;
   z-index: 100;
 }
 
 .ring-left {
-  left: 5vw !important;
-  animation: float 4s ease-in-out infinite;
+  z-index: 102 !important;
 }
 
 .ring-right {
-  left: auto;
-  right: 5vw !important;
-  animation: float 4s ease-in-out infinite 0.5s;
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translate(-50%, -50%) rotate(-9deg) translateY(0);
-  }
-  50% {
-    transform: translate(-50%, -50%) rotate(-9deg) translateY(-15px);
-  }
-}
-
-.ring-right {
-  animation: float-right 4s ease-in-out infinite 0.5s;
-}
-
-@keyframes float-right {
-  0%, 100% {
-    transform: translate(50%, -50%) rotate(10deg) translateY(0);
-  }
-  50% {
-    transform: translate(50%, -50%) rotate(10deg) translateY(-15px);
-  }
+  z-index: 101 !important;
 }
 
 .hero {
